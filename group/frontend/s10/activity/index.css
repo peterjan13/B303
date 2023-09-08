@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button {
+	color: white;
+	padding: 10px;
+	width: 9rem;
+	font-size: 1rem;
+	font-weight: 600;
+	border-color: transparent;
+	border-radius: 25px;
+}
+section {
+	padding: 3rem;
+	text-align: center;
+}
+
+.title-2 {
+	font-family: "Zilla Slab";
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.intro-description, .prefooter-description {
+	margin: 1rem 0 1rem 0;
+	font-weight: 10px;
+}
+
+.book-button {
+	background-color: #336589;
+}
+
+footer {
+	margin-top: 1rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+footer span {
+	margin: 0 1rem;
+	font-weight: 200;
+}
+
+nav {
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: white;
+}
+
+.right-nav {
+	float: right;
+}
+
+nav li{
+	list-style-type: none;
+	text-align: right;
+	display: inline;
+}
+
+.nav, .nav-logo {
+ 	margin: 8px;
+ 	padding: 3px;
+ }
+
+#logo {
+  padding-top: 8px;
+  padding-left: 5px;
+}
+
+.tuitt-button {
+  background-color: #c2195b;
+}
+
+#bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: white;
+}
+
+.container{
+	text-align: right;
+	width: 40%;
+	position: relative;
+	left: 55%;
+}
+
+ .title{
+	font-family: "Zilla Slab";
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+.subtitle{
+	font-size: 1.3rem;
+	font-weight: 300;
+	width: 75%;
+	margin-left: 9rem;
+	margin-top: 10px;
+}
+
+.apply-button{
+	margin-top: 5px;
+	background-color: #c2195b;
+}

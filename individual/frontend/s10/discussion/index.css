@@ -1,0 +1,35 @@
+.img-float {
+	width: 250px;
+	height: 250px;
+	float: right;
+	z-index: 1;
+}
+
+.parent-element {
+	background-color: skyblue;
+	padding: 10px;
+	position: relative;
+	height: 800vh;
+	z-index: -1;
+}
+
+.child-one {
+	background-color: gray;
+	padding: 10px;
+}
+
+.child-two {
+	background-color: yellow;
+	padding: 10px;
+	position: sticky;
+	top: 10px;
+}
+
+.child-three {
+	background-color: indianred;
+	padding: 10px;
+}
+
+html {
+	height: 800vh;
+}

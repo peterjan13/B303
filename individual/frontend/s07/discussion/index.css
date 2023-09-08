@@ -1,0 +1,43 @@
+h3 {
+	color: hotpink;
+}
+
+#zuitt-motto-p {
+	letter-spacing: 5px;
+}
+
+.offering-item {
+	text-transform: uppercase;
+}
+
+h1 {
+	color: blueviolet !important;
+}
+h1 + img {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+#bootcamp-learning-list li{
+	color: indianred;
+}
+
+h2 ~ a {
+	text-decoration: none;
+	color: black;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+section {
+	height: 100vh;
+	text-align: center;
+}
+
+ol {
+	list-style-type: none;
+	padding: 0;
+}

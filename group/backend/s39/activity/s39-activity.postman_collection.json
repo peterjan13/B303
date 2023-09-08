@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "cf6e55ea-197b-466b-ae1e-a6353a01d67b",
+		"name": "cordero-s39-activity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28818086"
+	},
+	"item": [
+		{
+			"name": "getAllToDo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://jsonplaceholder.typicode.com/todos"
+			},
+			"response": []
+		},
+		{
+			"name": "getSpecificToDo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/todos/1"
+			},
+			"response": []
+		},
+		{
+			"name": "createToDo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"completed\": \"false\",\r\n    \"title\": \"Create To Do List Item\",\r\n    \"userId\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://jsonplaceholder.typicode.com/todos"
+			},
+			"response": []
+		},
+		{
+			"name": "updateToDo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\" : \"Corrected Post!\",\r\n    \"description\" : \"To update my list with a different data structure\",\r\n    \"status\": \"pending\",\r\n    \"dateCompleted\": \"pending\",\r\n    \"userID\": \"1\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://jsonplaceholder.typicode.com/todos/1"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteToDo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/todos/1"
+			},
+			"response": []
+		}
+	]
+}

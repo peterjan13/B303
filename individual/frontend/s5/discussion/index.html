@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Tables and Forms</title>
+</head>
+<body>
+	<main>
+		<section>
+			<h2>HTML Entities</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<!-- You can occupy more columns within a header by using the 'colspan' attribute. -->
+						<th>Entity</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><</td>
+						<td>less than</td>
+					</tr>
+					<tr>
+						<td>></td>
+						<td>greater than</td>
+					</tr>
+					<tr>
+						<td>&#8369;</td>
+						<td>peso sign</td>
+					</tr>
+					<tr>
+						<td>&</td>
+						<td>ampersand</td>
+					</tr>
+					<tr>
+						<td>""</td>
+						<td>double quotation mark</td>
+					</tr>
+					<tr>
+						<td>''</td>
+						<td>single quotation mark</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th colspan="2">List of HTML entities</th>
+					</tr>
+				</tfoot>
+			</table>	
+		</section>
+
+		<section>
+			<h2>HTML Forms</h2>
+			<p>Input elements that make up the form</p>
+			<!-- Form tags have an action attribute which directs the form data to a specific URL. -->
+			<form action="https://google.com">
+				<!-- When pairing Label and input tags, make sure that the value of the 'for' attribute is the same as the valule of the 'name' attribute of the input tag. -->
+				<label for="full-name">Full Name:</label>
+				<input type="text" name="full-name" id="full-name" required autocomplete>
+				<!-- The 'required' attribute restricts the form submission if a specific input field has not been filled yet -->
+				<!-- The 'autocomplete' attribute will show suggestions for possible inputs that a user may put in the input field -->
+
+				<!-- Line Break -->
+				<br>
+
+				<label for="birth-date">Birth Date:</label>
+				<input type="date" name="birth-date" id="birth-date" required>
+
+				<br>
+
+				<label for="age">Age:</label>
+				<input type="number" name="age" id="age" required>
+
+				<br>
+
+				<label for="sex">Sex:</label>
+				<select name="sex" id="sex">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+
+				<br>
+
+				<label>New User:</label>
+				<br>
+
+				<input type="radio" name="new-user" id="user-type-1" value="yes">
+				<label for="user-type-1">yes</label>
+
+				<input type="radio" name="new-user" id="user-type-2" value="no">
+				<label for="user-type-2">no</label>
+
+				<br><br>
+
+				<label>Role:</label>
+				<br>
+
+				<input type="checkbox" name="role-1" id="role-1" value="Developer">
+				<label for="role-1">Developer</label>
+				<br>
+
+				<input type="checkbox" name="role-2" id="role-2" value="Student">
+				<label for="role-2">Student</label>
+
+				<br>
+				<input type="checkbox" name="role-3" id="role-3" value="Manager">
+				<label for="role-3">Manager</label>
+
+				<br><br>
+
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>

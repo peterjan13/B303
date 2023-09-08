@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "68d26254-2579-47ca-9cc0-13fa4b60e729",
+		"name": "s44-activity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28291656"
+	},
+	"item": [
+		{
+			"name": "get Profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"64cc4bc12e68cd7978bd20ea\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/users/details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"details"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,70 @@
+nav > ul > li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0.5rem;
+	padding: 3px;
+	list-style-type: none;
+}
+
+#landing {
+	background-image: url(https://i.pinimg.com/originals/6a/0d/c6/6a0dc6826b7e238993509561bc60b51a.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 50vh;
+	color: white;
+	background-attachment: scroll;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ysabeau SC', sans-serif;
+}
+
+h1, h3, h2, h4{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+nav {
+	padding: 5px;
+	text-align: center;
+	background-color: tan;
+}
+
+#landing h1 {
+	padding-top: 2rem;
+	font-size: 3rem;
+}
+
+#landing h3 {
+	margin: 1rem;
+}
+
+#landing button{
+	padding: 0.8rem;
+	background-color: #DEB887;
+	border: 4px solid white;
+	border-radius: 10px;
+}
+
+#hot {
+  text-align: center;
+}
+
+#hot h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hot li {
+  display: inline-block;
+  list-style-type: none;
+  border: 2px solid palevioletred;
+  border-radius: 2px;
+  padding: 3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

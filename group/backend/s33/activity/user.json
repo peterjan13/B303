@@ -1,0 +1,9 @@
+{
+	"_id": "od2Mdoiw248BFWW",
+	"firstName": "Johnathan",
+	"lastName": "Bones",
+	"email": "johnathan.bones@gmail.com",
+	"password": "isThisJustFantasy",
+	"isAdmin": false,
+	"mobileNumber": "09876543210"
+}

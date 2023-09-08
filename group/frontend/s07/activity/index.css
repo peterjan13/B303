@@ -1,0 +1,40 @@
+#external{
+	color: yellow;
+}
+*{
+	font-family: verdana, sans-serif;
+	font-size: 20px;
+}
+h1 {
+	font-size: 3rem;
+}
+
+#sub-header {
+	text-transform: uppercase;
+}
+
+.text-green {
+	background-color: green;
+}
+[class="border-blue"]{
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+}
+
+img + ul{
+	list-style-type: none;
+}
+
+section img {
+	height: 20vh;
+	width: 20vh;
+	border-radius: 100px;
+}
+h4 ~ p  {
+	text-align: center;
+}
+
+#others-list li {
+	letter-spacing: 10px;
+}

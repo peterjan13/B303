@@ -1,0 +1,10 @@
+{
+  "_id": "64a76580fc37f3d3d930cf64",
+  "firstName": "James",
+  "lastName": "Dean",
+  "email": "jamesdean@gmail.com",
+  "password": "jameshandsome123",
+  "isAdmin": false,
+  "mobileNumber": "09123456789",
+  "datetimeRegistered": "2023-07-26T11:57:00Z"
+}

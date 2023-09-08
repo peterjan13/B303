@@ -1,0 +1,9 @@
+{
+	"_id": "ow582BIBwlwdw2942082bdow",
+	"name": "AMD Radeon RX 7900 XTX",
+	"description": "Built on the groundbreaking AMD RDNA™ 3 architecture, AMD Radeon™ RX 7000 Series graphics deliver next-generation performance, visuals, and efficiency.",
+	"price": 60000,
+	"stocks": 999,
+	"isActive": true,
+	"SKU": "64ab4f96be38c98ad260a7fb"
+}

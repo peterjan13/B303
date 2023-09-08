@@ -1,0 +1,10 @@
+{
+    "_id": "64ab4f96be38c98ad260a7fb",
+    "name": "JavaScript",
+    "description":"Learn the basics of JavaScript for backend app development.",
+    "price": 1000,
+    "isActive": true,
+    "slots": 20,
+    "datetimeCreated": "2023-07-26T08:00:00Z"
+
+}

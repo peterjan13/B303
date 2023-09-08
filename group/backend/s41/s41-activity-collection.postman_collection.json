@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "0f705be1-2545-40e6-b6f2-a83846fe87f3",
+		"name": "group2-s41-activity-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28818086"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"john\",\r\n    \"password\": \"johndoe\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:4000/signup"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

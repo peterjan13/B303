@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "a96d42e1-85bd-4899-9dce-bd8e8bd82f97",
+		"name": "s42-activity-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28818086"
+	},
+	"item": [
+		{
+			"name": "tasks",
+			"item": [
+				{
+					"name": "create single task",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:4000/tasks"
+					},
+					"response": []
+				},
+				{
+					"name": "get specific task",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:4000/tasks/64c8befd7cff677735c40266"
+					},
+					"response": []
+				},
+				{
+					"name": "update task status",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "http://localhost:4000/tasks/64c8befd7cff677735c40266/complete"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
